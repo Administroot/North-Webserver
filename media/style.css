@@ -4,8 +4,8 @@
     --accent1: #bc64a4;
     --accent2: #b44c97;
     --accent2_transp: #55295b;
-    --background1: #212529;
-    --background2: #16191b;
+    --background1: #eaeef1;
+    --background2: #d5e3d4;
 
 
     color-scheme: dark;
@@ -18,7 +18,7 @@ span {
 body {
     font-family:'Space Grotesk', sans-serif;
     background-color: var(--background1);
-    color: white;
+    color: black;
     margin:0px;
 }
 
@@ -60,7 +60,7 @@ body {
 
 .headline {
     margin-top: 2rem;
-    color: #fff;
+    color: black;
     font-size:3rem;
     text-align: center;
     font-weight: 600;
@@ -94,7 +94,7 @@ body {
     padding: .8rem;
     transition: all .5s;
     text-decoration: none;
-    color: #fff;
+    color: #180614;
     text-align: center;
 }
 .desktop_navbar_link:hover {
@@ -199,8 +199,8 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .5) url('https://imgur.com/cGMLytH.png');
-    background-blend-mode: darken;
+    background: rgba(12, 15, 6, .5) url('bg.png');
+    background-blend-mode: lighten;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -270,7 +270,7 @@ body {
     text-align: center;
     background-color: rgba(0, 175, 0, 0.1);
     border:solid rgba(0, 175, 0, 1) 1px;
-    color: #fff;
+    color: black;
     border-radius: var(--roundness);
     z-index: 9999;
     padding-left: 1rem;
@@ -408,7 +408,7 @@ body {
 }
 .main4_dc_button_a{
     text-decoration: none;
-    color: #fff;
+    color: black;
     text-align: center;
     border: solid var(--accent1) 1px;
     border-radius: var(--roundness);
@@ -502,7 +502,7 @@ body {
     text-align: center;
     font-size:1.5rem;
     font-weight: 700;
-    color: #fff;
+    color: purple;
     text-decoration: none;
     transition: all .5s;
     margin-bottom: .5rem;
@@ -564,7 +564,7 @@ body {
     text-align: center;
     font-size:1.3rem;
     font-weight: 700;
-    color: #fff;
+    color: purple;
     text-decoration: none;
     transition: all .5s;
     margin-bottom: .5rem;
@@ -615,7 +615,7 @@ body {
     text-align: center;
     font-size:1.5rem;
     font-weight: 700;
-    color: #fff;
+    color: black;
     text-decoration: none;
     transition: all .5s;
     margin-bottom: .5rem;
