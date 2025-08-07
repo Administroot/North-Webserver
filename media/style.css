@@ -7,7 +7,6 @@
     --background1: #eaeef1;
     --background2: #d5e3d4;
 
-
     color-scheme: dark;
 }
 
@@ -233,6 +232,11 @@ body {
 .main1_actcent {
     font-weight: 800;
     color:var(--accent1);
+}
+
+.main1_bctcent {
+    font-weight: 300;
+    color: var(--background1);
 }
 
 .main1_ipcopier {
