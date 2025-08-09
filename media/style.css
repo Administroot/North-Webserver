@@ -74,7 +74,7 @@ body {
     right: 0;
     left: 0;
     bottom:0;
-    background-color: #00000022;
+    background-color: rgba(180, 76, 151, .4);
     backdrop-filter: blur(15px);
     z-index: 5;
     align-items: center;
@@ -93,11 +93,11 @@ body {
     padding: .8rem;
     transition: all .5s;
     text-decoration: none;
-    color: #180614;
+    color: whitesmoke;
     text-align: center;
 }
 .desktop_navbar_link:hover {
-    color: var(--accent1);
+    color: #3498db;
 }
 
 .desktop_navbar_link2 {
@@ -230,7 +230,7 @@ body {
 }
 
 .main1_actcent {
-    font-weight: 800;
+    font-weight: 1000;
     color:var(--accent1);
 }
 
