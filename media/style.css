@@ -7,7 +7,6 @@
     --background1: #eaeef1;
     --background2: #d5e3d4;
 
-
     color-scheme: dark;
 }
 
@@ -75,7 +74,7 @@ body {
     right: 0;
     left: 0;
     bottom:0;
-    background-color: #00000022;
+    background-color: rgba(180, 76, 151, .4);
     backdrop-filter: blur(15px);
     z-index: 5;
     align-items: center;
@@ -94,11 +93,11 @@ body {
     padding: .8rem;
     transition: all .5s;
     text-decoration: none;
-    color: #180614;
+    color: whitesmoke;
     text-align: center;
 }
 .desktop_navbar_link:hover {
-    color: var(--accent1);
+    color: #3498db;
 }
 
 .desktop_navbar_link2 {
@@ -231,8 +230,21 @@ body {
 }
 
 .main1_actcent {
-    font-weight: 800;
+    font-weight: 1000;
     color:var(--accent1);
+}
+
+.main1_bctcent {
+    font-weight: 350;
+    color: var(--background1);
+}
+
+.main1_ipcopier_div {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }
 
 .main1_ipcopier {
@@ -241,7 +253,7 @@ body {
     padding-right: 2rem;
     font-size: 2rem;
     background-color: var(--accent2_transp);
-    border: 0px;
+    border: 2px;
     border-radius: var(--roundness);
     color: white;
     transition: all .5s;
@@ -687,7 +699,7 @@ body {
         margin-left: 1rem;
     }
     .main1_logo {
-        max-width: 16rem;
+        max-width: 50rem;
     }
     .main1_description {
         font-size: 2.5rem;

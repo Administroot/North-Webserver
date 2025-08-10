@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Minecraft Server Name]</title>
+    <title>「NorthStarY」北极永久服务器</title>
     <link rel="icon" type="image/png" href="media/favicon.png">
     <link rel="stylesheet" href="media/style.css">
     <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
@@ -14,17 +14,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <nav class="desktop_navbar">
       <a href="#"><img class="desktop_navbar_logo_img" src="media/logo_small.png" alt="logo"></a>
-      <a href="https://wiki.example.com/" class="desktop_navbar_link">MC百科</a>
-      <a href="#discord" class="desktop_navbar_link scroll">玩家社区</a>
-      <a href="#about" class="desktop_navbar_link scroll">关于我们</a>
+      <a href="https://littleskin.cn" class="desktop_navbar_link">🧩皮肤站</a>
+      <a href="https://littleskin.cn" class="desktop_navbar_link">🤘玩家系统</a>
+      <a href="https://littleskin.cn" class="desktop_navbar_link">🏆服务器活动</a>
+      <a href="https://littleskin.cn" class="desktop_navbar_link">📝更新日志</a>
+      <a href="#discord" class="desktop_navbar_link scroll">🗺️服务器在线地图</a>
+      <a href="https://docs.qq.com/sheet/DTHhudmFlY2h3WnBw?tab=BB08J2" class="desktop_navbar_link">💸赞助列表</a>
+      <a href="#about" class="desktop_navbar_link scroll">📛关于我们</a>
       <div class="desktop_navbar_link2_div">
-          <a href="#join" class="desktop_navbar_link2 scroll">立即开玩！</a>
+          <a href="#join" class="desktop_navbar_link2 scroll">🕹立即开玩！</a>
       </div>
     </nav>
     <div class="mobile_navbar">
       <a href="#" class="mobile_navbar_logo_img_a"><img class="mobile_navbar_logo_img" src="media/logo_small.png" alt="logo"></a>
       <div id="mobile_navbar_links">
-          <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="https://wiki.example.com/">Wiki</a>
+          <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="https://littleskin.cn">Wiki</a>
           <a class="mobile_navbar_link scroll" onclick="mobile_navbar_link_hider()" href="#discord">Community</a>
           <a class="mobile_navbar_link scroll" onclick="mobile_navbar_link_hider()" href="#about">About Us</a>
           <a class="mobile_navbar_link scroll" onclick="mobile_navbar_link_hider()" href="#join">Join Us</a>
@@ -49,19 +53,21 @@
           <img class="main1_logo" src="media/logo.png" alt="logo">
         </a>
         <div class="main1_description">
-          <a>北极服务器<br>现在</a>
-          <a class="main1_actcent">又开服啦！</a><a>.</a>
+          <a class="main1_bctcent">北极</a>
+          <a class="main1_actcent">Minecraft</a>
+          <a class="main1_bctcent">服务器</a>
         </div>
         <div class="main1_ipcopier_div">
+          <button class="main1_ipcopier" onclick="copyText(); window.location.hash='#discord'" type="button">
+            <span class="main1_ipcopier_text1">加入Q群</span>
+          </button>
           <button class="main1_ipcopier" onclick="copyText()" type="button">
-            <span class="main1_ipcopier_text1">s10.laoxie.net</span>
-            <br>
-            <span class="main1_ipcopier_text2">点击一键爆破</span>
+            <span class="main1_ipcopier_text1">立即下载</span>
           </button>
           <script>
             function copyText() {
                 navigator.clipboard.writeText
-            ("play.example.com");
+            ("s11.laoxie.net:10091");
                 }
             $(document).ready(function() {
             $('.main1_ipcopier').click(function() {
@@ -73,7 +79,7 @@
                 }, 1000);
             });
             });
-        </script>
+          </script>
         </div>
         <a href="#more" class="scroll">
           <img alt="downarrow" class="main1_downarrow" src="media/downarrow.png">
@@ -95,32 +101,32 @@
       </div>
       <div id="more"></div>
       <div class="main2">
-        <a class="headline">What we have</a>
+        <a class="headline">服务器公共传送点</a>
         <div class="main2_features_div">
           <div class="main2_feature">
-            <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
-            <a class="main2_feature_headline">Feature 1</a>
-            <a class="main2_feature_text">Feature description</a>
+            <img class="main2_feature_img" alt="Feature Image" src="media/maincity.png">
+            <a class="main2_feature_headline">主城</a>
+            <a class="main2_feature_text">梦开始的地方<br>(你没逝吧~)</a>
           </div>
           <div class="main2_feature">
-            <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
-            <a class="main2_feature_headline">Feature 2</a>
-            <a class="main2_feature_text">Feature description</a>
+            <img class="main2_feature_img" alt="Feature Image" src="media/pixelart.png">
+            <a class="main2_feature_headline">国庆像素画</a>
+            <a class="main2_feature_text">完成作画可领取神秘大礼包哦</a>
           </div>
           <div class="main2_feature">
-            <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
-            <a class="main2_feature_headline">Feature 3</a>
-            <a class="main2_feature_text">Feature description</a>
+            <img class="main2_feature_img" alt="Feature Image" src="media/juzizhoutou.png">
+            <a class="main2_feature_headline">橘子洲头</a>
+            <a class="main2_feature_text">向教员献上崇高敬意<br>向建筑大佬献上膝盖</a>
           </div>
           <div class="main2_feature">
-            <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
-            <a class="main2_feature_headline">Feature 4</a>
-            <a class="main2_feature_text">Feature description</a>
+            <img class="main2_feature_img" alt="Feature Image" src="media/cornfield.png">
+            <a class="main2_feature_headline">公共麦田</a>
+            <a class="main2_feature_text">服里绝对不允许出现饿死鬼！<br>唔嘿~抓到一只野生服主~(๑•̀ω•́)</a>
           </div>
           <div class="main2_feature">
-            <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
-            <a class="main2_feature_headline">Feature 5</a>
-            <a class="main2_feature_text">Feature description</a>
+            <img class="main2_feature_img" alt="Feature Image" src="media/coinmarket.png">
+            <a class="main2_feature_headline">金币市场</a>
+            <a class="main2_feature_text">玩家间的交易市场<br>建材、装备、工具 ...<br>你想要的，这里都有！</a>
           </div>
         </div>
       </div>
@@ -146,42 +152,26 @@
             <img class="main5_admins_img" alt="admin member img" src="media/TiaraYAvatar.jpg">
             <div class="main5_admins_description_div">
               <a class="main5_admins_description_rank main5_admins_description_rank_owner">[服主]</a>
-              <a class="main5_admins_description_title" href="https://example.com">在北极找北</a>
+              <a class="main5_admins_description_title" href="https://ciallo.cc">在北极找北</a>
               <a class="main5_admins_description">与你们<br>是最美好的相遇</a>
             </div>
           </div>
           <div class="main5_admins_div main5_admins_dev_type1">
             <img class="main5_admins_img" alt="admin member img" src="media/BoliAvatar.png">
             <div class="main5_admins_description_div">
-              <a class="main5_admins_description_rank main5_admins_description_rank_admin">[网站开发与维护]</a>
+              <a class="main5_admins_description_rank main5_admins_description_rank_admin">[网站前端]</a>
               <a class="main5_admins_description_title" href="https://ruchenblog.netlify.app/">Boli_Lemon</a>
-              <a class="main5_admins_description">一休尼玩一辈子MC<br>欧内盖瓦塔西</a>
+              <a class="main5_admins_description">「 山底炕人 」<br>⭐️顾名思义⭐️<br>🗻住在山底🗻<br>⛏️喜欢挖坑⛏️</a>
             </div>
           </div>
         </div>
         <div class="main5_supporter_div">
           <div class="main5_supporters_div">
-            <img class="main5_supporters_img" alt="supporters member img" src="media/chuseavatar.jpg">
-            <div class="main5_supporters_description_div">
-              <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[管理员]</a>
-              <a class="main5_supporters_description_title">初涩</a>
-              <a class="main5_supporters_description">Supporter<br>Description</a>
-            </div>
-          </div>
-          <div class="main5_supporters_div">
-            <img class="main5_supporters_img" alt="supporters member img" src="media/xiaomengavatar.jpg">
-            <div class="main5_supporters_description_div">
-              <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[副腐竹]</a>
-              <a class="main5_supporters_description_title">xiaomeng</a>
-              <a class="main5_supporters_description">Supporter<br>Description</a>
-            </div>
-          </div>
-          <div class="main5_supporters_div">
             <img class="main5_supporters_img" alt="supporters member img" src="media/miaoavatar.jpg">
             <div class="main5_supporters_description_div">
               <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[管理员]</a>
-              <a class="main5_supporters_description_title">喵...</a>
-              <a class="main5_supporters_description">Supporter<br>Description</a>
+              <a class="main5_supporters_description_title">謝 / 喵</a>
+              <a class="main5_supporters_description">賣伺服器的</a>
             </div>
           </div>
           <div class="main5_supporters_div">
@@ -189,7 +179,7 @@
             <div class="main5_supporters_description_div">
               <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[管理员]</a>
               <a class="main5_supporters_description_title">楹蓝</a>
-              <a class="main5_supporters_description">Supporter<br>Description</a>
+              <a class="main5_supporters_description">自闭服务端运维<br>计算资源提供</a>
             </div>
           </div>
           <div class="main5_supporters_div">
@@ -197,7 +187,7 @@
             <div class="main5_supporters_description_div">
               <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[管理员]</a>
               <a class="main5_supporters_description_title">龖峰</a>
-              <a class="main5_supporters_description">Supporter<br>Description</a>
+              <a class="main5_supporters_description">群里最帅的</a>
             </div>
           </div>
         </div>
@@ -214,8 +204,8 @@
                 <a>Port:</a>
               </div>
               <div class="main3_join_values">
-                <a>s11.laoxie.net</a>
-                <a>10080</a>
+                <a>s11.laoxienet.cn</a>
+                <a>10091</a>
               </div>
             </div>
           </div>
@@ -227,8 +217,8 @@
                 <a>Port:</a>
               </div>
               <div class="main3_join_values">
-                <a>s10.laoxie.net</a>
-                <a>10080</a>
+                <a>s10.laoxienet.cn</a>
+                <a>10091</a>
               </div>
             </div>
           </div>
