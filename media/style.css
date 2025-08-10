@@ -239,13 +239,21 @@ body {
     color: var(--background1);
 }
 
+.main1_ipcopier_div {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
 .main1_ipcopier {
     padding: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 2rem;
     background-color: var(--accent2_transp);
-    border: 0px;
+    border: 2px;
     border-radius: var(--roundness);
     color: white;
     transition: all .5s;
