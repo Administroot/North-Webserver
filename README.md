@@ -3,7 +3,6 @@
 # North-Webserver
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e972b611-25a8-4dcb-82f4-046c5b194287/deploy-status)](https://app.netlify.com/projects/north-webserver/deploys)
-
 ![GitHub License](https://img.shields.io/github/license/Administroot/north-webserver)
 
 A simple website for North Webserver, a Minecraft game server.
